@@ -77,10 +77,10 @@ for example: */
 /*
 ৬. আখেরি রত্ন হচ্ছে Object তাই কোন একটা অবজেক্ট কিভাবে ডিক্লেয়ার করে। সেখান property কিভাবে কিভাবে একসেস করা যায়। এছাড়াও অবজেক্ট এর প্রপার্টি এর ভ্যালু হিসেবে কিভাবে array, object ইউজ করা যায়। 
  */
-const studeDetil = {
+const studentDetils = {
   name: "marouf",
   id: 10,
   subject: ["bangla", "english", "math", "histerycal"],
 };
-console.log(studeDetil.id);
-console.log(studeDetil.subject[2]);
+console.log(studentDetils.id);
+console.log(studentDetils.subject[2]);
